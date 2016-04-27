@@ -5,7 +5,7 @@ Project Summary:
 My final project is a text adventure game. In it, you are an apprecntice training in computer wizardry, and for your final examination you must defeat the evil troll COG. In order to do so you will need to explore the map to collect weapons, unlock areas, and find your missing spellbook. The project itself functions by allowing a hero object and a gamMap object (linked list) to interact in a main.cpp file. 
 
 How to Run:
-In order to run you will need a functioning VM and codeblocks program. Start by linking all the files together under the project->build options dropdown, and be sure to add all the .h files under the project->build options->search directories. Finally, make sure that under project->build options you have the project follow -std=c++11. The driver file is main.cpp.
+In order to run you will need a functioning VM and codeblocks program. Start by downloading the final project files as a zip, subsequently open the .cbp and link all the files together under the project->build options->add files dropdown (excluding hellowold.cpp and the readme as these are not for my project). Finally, make sure that under project->build options you have the project follow -std=c++11. The driver file is main.cpp.
 
 Dependencies:
 None
@@ -20,7 +20,7 @@ Contributors:
 None
 
 Open Issues/ Bugs:
-I believe most of the bugs have been fixed; however, if you get the item "Protein of Whey" you can receive unlimited health bonuses by equipping and reequipping it. This was intentional to make the final boss easier, though it may seem like a bug at first.
+I believe most of the bugs have been fixed; however, if you get the item "Protein of Whey" you can receive unlimited health bonuses by equipping and reequipping it. This was intentional to make the final boss easier, though it may seem like a bug at first. Also the combat system is a bit basic so if you have any ideas let me know. 
 
 
 
