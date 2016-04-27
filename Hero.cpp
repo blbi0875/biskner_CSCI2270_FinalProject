@@ -94,7 +94,7 @@ void Hero::displayInventory()
         cout<<"Choice: ";
         cin>>choice;
     }
-    while((choice>inventory.size())&&(choice!=(-1))); //Continues to display message until valid choice is made
+    while((choice>=inventory.size())&&(choice!=(-1))); //Continues to display message until valid choice is made
 
     if(choice!=-1) //If User Selected Item
     {
