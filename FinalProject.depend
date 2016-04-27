@@ -1,0 +1,46 @@
+# depslib dependency file v1.0
+1461448427 source:/home/user/Dropbox/FinalProject/src/Location.cpp
+	"Location.h"
+
+1461458194 /home/user/Dropbox/FinalProject/include/Location.h
+	<iostream>
+	<string>
+
+1461556549 source:/home/user/Dropbox/FinalProject/src/Map.cpp
+	"Map.h"
+
+1461498387 /home/user/Dropbox/FinalProject/include/Map.h
+	<string>
+	<vector>
+	"Character.h"
+	"Hero.h"
+	"Item.h"
+
+1461556549 source:/home/user/Dropbox/FinalProject/main.cpp
+	<iostream>
+	<string>
+	<cstdlib>
+	"Hero.h"
+	"Map.h"
+
+1461551182 source:/home/user/Dropbox/FinalProject/src/Hero.cpp
+	"Hero.h"
+
+1461551182 /home/user/Dropbox/FinalProject/include/Hero.h
+	<vector>
+	"Character.h"
+	"Map.h"
+	"Item.h"
+
+1461554245 source:/home/user/Dropbox/FinalProject/src/Character.cpp
+	"Character.h"
+
+1461554208 /home/user/Dropbox/FinalProject/include/Character.h
+	<string>
+	<iostream>
+
+1461496922 /home/user/Dropbox/FinalProject/include/Item.h
+	<string>
+
+1461496939 source:/home/user/Dropbox/FinalProject/src/Item.cpp
+
