@@ -5,7 +5,7 @@ Project Summary:
 My final project is a text adventure game. In it, you are an apprecntice training in computer wizardry, and for your final examination you must defeat the evil troll COG. In order to do so you will need to explore the map to collect weapons, unlock areas, and find your missing spellbook. The project itself functions by allowing a hero object and a gamMap object (linked list) to interact in a main.cpp file. 
 
 How to Run:
-In order to run you will need a functioning VM and codeblocks program. Start by linking all the files together under the project->build options dropdown, and be sure to add all the .h files under the project->build options->search directories. Finally, make sure that under project->build options you have the project follow -std=c++11.
+In order to run you will need a functioning VM and codeblocks program. Start by linking all the files together under the project->build options dropdown, and be sure to add all the .h files under the project->build options->search directories. Finally, make sure that under project->build options you have the project follow -std=c++11. The driver file is main.cpp.
 
 Dependencies:
 None
