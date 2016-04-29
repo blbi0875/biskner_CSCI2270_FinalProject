@@ -21,5 +21,9 @@ None
 Open Issues/ Bugs:
 I believe most of the bugs have been fixed; however, if you get the item "Protein of Whey" you can receive unlimited health bonuses by equipping and reequipping it. This was intentional to make the final boss easier, though it may seem like a bug at first. Also the combat system is pretty simple so if you have any ideas let me know. Thank you for your help and enjoy the game.
 
+Technical Requirements:
+Class- Hero, Map, Character
+Data Structure- Linked List (Used to Construct Map)
+Public Methods- Hero contains 8 Class Specific Methods and it Inherits 
 
 
