@@ -51,6 +51,7 @@ int main()
 
 bool display_Welcome_Message()
 {
+    string choice1;
     int choice;
 
     cout<<"========================== WELCOME SCREEN ============================"<<endl<<endl;
@@ -69,7 +70,15 @@ bool display_Welcome_Message()
     do
     {
         cout<<"Enter Choice: ";
-        cin>>choice;
+        //cin.ignore();                                                         //Changes Start Here
+        getline(cin,choice1);                                                   //
+        if(choice1.size() != 1 ||(choice1[0] != '1' && choice1[0] != '2')){     //
+            choice = 0;                                                         //
+        }                                                                       //
+        else{                                                                   //
+            choice = stoi(choice1,nullptr,10);                                  //
+        }                                                                       //
+        //cin>>choice;                                                          // End Here
         switch(choice)
         {
         case 1:
@@ -92,11 +101,17 @@ bool create_character(Hero *user)
     string name;
     char choice;
 
+    //prevents cin.ignore() from occurring on the first loop
+    int flag = 0;
+
     cout<<"==== CHARACTER CREATION ===="<<endl;
     do
     {
         cout<<"Enter Name of Hero: ";
-        cin.ignore(); //Needed to ensure getline works properly
+        if(flag != 0){                                                  //Changes start here
+            cin.ignore(); //Needed to ensure getline works properly     //
+        }                                                               //
+        flag = 1;                                                       //End Here
         getline(cin,name); //Gets name of user
         cout<<"Are You Sure You Wish to be Called "<<name<<" for the WHOLE Game?"<<endl;
         cout<<"Enter Y or N: "; //Allows user opportunity to verify name
